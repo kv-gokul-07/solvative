@@ -1,0 +1,45 @@
+
+.commmonTable {
+    width: 100%
+}
+
+.tableItem {
+    padding: 8px;
+    text-align: left;
+}
+
+.tableHead {
+   font-weight: 700;
+}
+
+.countryImg{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.selectWrapper {
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.limitSelector {
+    width: 50px;
+}
+
+@media screen and (min-width: 700px) {
+    .tableWrapper {
+        margin: auto;
+        width: 700px;
+    }
+    .table {
+        width: 100%;
+    }
+}

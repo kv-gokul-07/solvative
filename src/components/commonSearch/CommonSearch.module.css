@@ -1,0 +1,41 @@
+.searchFieldWrapper {
+   margin-bottom: 30px;
+   width: fit-content;
+   position: relative;
+}
+
+.textField {
+    height: 38px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(206, 212, 218);
+    background-color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    color: Black;
+}
+
+.textField:focus {
+    outline: 0px;
+    border-color: #7952b3; 
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
+
+.textField::placeholder {
+    color: Grey;
+}
+
+.ctrlCmd {
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(0%, -50%);
+    font-size: 12px;
+    border-color: rgb(222, 226, 230);
+    border-radius: 2px;
+    height: 24px;
+    padding: 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
